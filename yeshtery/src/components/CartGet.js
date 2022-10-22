@@ -5,11 +5,6 @@ import { useCart } from 'react-use-cart'
 const CartGet = ({ x }) => {
 
     const {
-        // totalUniqueItems,
-        // totalItems,
-        // cartTotal,
-        // updateItemQuantity,
-        // emptyCart,
         isEmpty,
         items,
         removeItem,

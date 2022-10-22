@@ -8,8 +8,6 @@ function Cards(props) {
     const { addItem } = useCart()
     return (
         <div className="container-fluid linksCard">
-
-
             {/*new component */}
             <LinksTop />
 
@@ -108,11 +106,6 @@ function Cards(props) {
                             <button className="btn ButtAdd" onClick={() => addItem(props.item)}>Add To Cart</button>
                             <button className="btn ButtPick">Pickup From Store</button>
                         </div>
-
-
-
-
-
 
                     </div>
                 </div>
