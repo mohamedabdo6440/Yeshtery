@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="topFooter">
                     <div className="row mb-3 ">
                         <div className="col-md-6 mt-4">
-                            <h1>Yeshtery</h1>
+                            <h1 style={{ color: "#ffc107" }}>Yeshtery</h1>
                         </div>
                         <div className="col-md-6 mt-2">
                             <input type="search" className="mt-4 SearchFooter" placeholder="Enter Your Mail" />
