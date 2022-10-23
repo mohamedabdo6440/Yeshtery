@@ -5,15 +5,11 @@ import { BsMinecartLoaded, BsFillPersonFill, BsHeart } from 'react-icons/bs';
 import CartGet from './CartGet';
 
 const MedNav = ({ dataGet, Remove }) => {
-
-
     const {
         totalUniqueItems,
     } = useCart();
-
-
-
     return (
+
         <div className="MedNav container text-center">
             <div className="row">
                 <div className="col-md-4 m-auto">
@@ -26,10 +22,6 @@ const MedNav = ({ dataGet, Remove }) => {
                 </div>
                 <div className="col-md-4">
                     <div className="Carts row">
-
-
-
-
 
                         <div className="col-md-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                             aria-controls="offcanvasRight">
@@ -55,12 +47,6 @@ const MedNav = ({ dataGet, Remove }) => {
                                 <CartGet Remove={Remove} dataCart={dataGet} />
                             </div>
                         </div>
-
-
-
-
-
-
                         <div style={{ cursor: "pointer" }} className="col-md-4"><BsHeart /> Wishlist</div>
                         <div style={{ cursor: "pointer" }} className="col-md-4"><BsFillPersonFill /> Login</div>
                     </div>
