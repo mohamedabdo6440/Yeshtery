@@ -7,33 +7,9 @@ import Cards from './components/Card';
 import SimilarSwiper from './components/SimilarSwiper';
 import data from './data';
 import Footer from './components/Footer';
-
+import ResponNav from './components/ResponNav';
 
 function App() {
-
-
-
-
-  // const addItem = () => {
-  //   localStorage.setItem('item', JSON.stringify(data));
-
-  // }
-
-
-  // //get Data from localStorage
-  // let dataGet = [];
-  // const loadData = localStorage.getItem("item");
-  // dataGet = JSON.parse(loadData);
-
-
-  // const Remove = () => {
-
-  //   localStorage.removeItem("item");
-
-  // }
-
-
-
 
   return (
 
@@ -41,6 +17,7 @@ function App() {
       <CartProvider>
         <TopNav />
         <MedNav />
+        <ResponNav />
         <BottomNav />
         <Container>
 

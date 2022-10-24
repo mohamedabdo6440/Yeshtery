@@ -2,7 +2,8 @@ import React from 'react';
 import { Badge } from 'react-bootstrap';
 import { useCart } from 'react-use-cart';
 import { BsMinecartLoaded, BsFillPersonFill, BsHeart } from 'react-icons/bs';
-import CartGet from './CartGet';
+import ContainerCart from './ContainerCart';
+
 
 const MedNav = ({ dataGet, Remove }) => {
     const {
@@ -10,7 +11,10 @@ const MedNav = ({ dataGet, Remove }) => {
     } = useCart();
     return (
 
+
+
         <div className="MedNav container text-center">
+
             <div className="row">
                 <div className="col-md-4 m-auto">
                     <input type="text" placeholder="Search" />
@@ -36,23 +40,15 @@ const MedNav = ({ dataGet, Remove }) => {
                             Cart
                         </div>
 
-                        <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                            aria-labelledby="offcanvasRightLabel">
-                            <div className="offcanvas-header">
+                        <ContainerCart />
 
-                                <button type="button" className="btn-close" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div className="offcanvas-body">
-                                <CartGet Remove={Remove} dataCart={dataGet} />
-                            </div>
-                        </div>
                         <div style={{ cursor: "pointer" }} className="col-md-4"><BsHeart /> Wishlist</div>
                         <div style={{ cursor: "pointer" }} className="col-md-4"><BsFillPersonFill /> Login</div>
                     </div>
                 </div>
             </div>
         </div>
+
     )
 }
 

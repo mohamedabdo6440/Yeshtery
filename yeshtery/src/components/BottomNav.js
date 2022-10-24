@@ -5,7 +5,7 @@ const BottomNav = () => {
 
 
 
-        <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <nav className="BottNav navbar navbar-expand-lg  navbar-dark bg-dark">
             <div className="container-fluid">
                 <span></span>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

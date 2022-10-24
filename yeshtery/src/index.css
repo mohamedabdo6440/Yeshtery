@@ -17,6 +17,16 @@
   padding-top: 4px;
 }
 
+.ImageLogo {
+  height: 38px;
+  width: 60px;
+}
+
+.ImageLogo img {
+  height: 100%;
+  width: 100%;
+}
+
 .MedNav {
   height: 50px;
 }
@@ -488,6 +498,8 @@
   font-weight: 400;
 }
 
+
+
 .footer .Links {
   display: flex;
   flex-direction: column;
@@ -523,4 +535,63 @@
   width: 50px;
   height: 60px;
   border-radius: 50%;
+}
+
+.ResponNav {
+  display: none;
+}
+
+/*Responsev Media Queries*/
+
+@media screen and (max-width: 770px) {
+  .TopNav {
+    display: none;
+  }
+
+  .BottNav {
+    display: none;
+  }
+
+  .MedNav {
+    display: none;
+  }
+
+  .ResponNav {
+    display: block;
+  }
+
+  #ulinks {
+    font-size: 13px;
+  }
+
+  .descriptionCard {
+    margin-top: 93px;
+  }
+
+  .similar {
+    display: none;
+  }
+
+  .footer {
+    height: auto;
+    background-color: rgba(7, 7, 7, 0.76);
+    margin-top: 310px;
+  }
+
+  .SwiperCards {
+    top: 754px;
+  }
+
+  .SizeDescription .sicle {
+    font-size: 11px;
+    height: 40px;
+    padding: 5px;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(255, 193, 7);
+  }
+
 }
