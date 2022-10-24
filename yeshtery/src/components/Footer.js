@@ -6,6 +6,7 @@ import face from './DinamecImage/Facebook.png'
 import insta from './DinamecImage/insta.webp'
 import twit from './DinamecImage/twit.png'
 import linkd from './DinamecImage/linkd.png'
+import { BsLinkedin } from 'react-icons/bs'
 const Footer = () => {
     return (
 
@@ -15,7 +16,9 @@ const Footer = () => {
                 <div className="topFooter">
                     <div className="row mb-3 ">
                         <div className="col-md-6 mt-4">
-                            <h1 style={{ color: "#ffc107" }}>Yeshtery</h1>
+                            <a className="navbar-brand" href="/">
+                                <img src="images/brand-logo-yellow.svg" alt="Logo Brand" />
+                            </a>
                         </div>
                         <div className="col-md-6 mt-2">
                             <input type="search" className="mt-4 SearchFooter" placeholder="Enter Your Mail" />
@@ -68,7 +71,11 @@ const Footer = () => {
                 <div className="buttFooter text-center">
                     <div className="row">
                         <div className="col-md-4">
-                            <p> &copf; 2021 yeshtery. all rights reserved.</p>
+                            <p> &copf; 2021 yeshtery. all rights reserved. <br /><span>Front End Developer /
+                                <span style={{ color: "#ffc107" }}>
+                                    <BsLinkedin /> <a class="navbar-brand" href="https://www.linkedin.com/in/mohamed-abdo-13a527211/" target={"_blank"}>Mohamed Abdo</a>
+                                </span>
+                            </span></p>
                         </div>
                         <div className="col-md-4 d-flex justify-content-center">
                             <div className="visaLodo me-2">

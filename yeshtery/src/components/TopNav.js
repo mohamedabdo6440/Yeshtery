@@ -7,7 +7,9 @@ const TopNav = () => {
     return (
         <nav className="TopNav navbar-expand-lg navbar navbar-light bg-warning ">
             <div className="container">
-                <a className="navbar-brand" href="/"><BsTextLeft />Yeshtery</a>
+                <a className="navbar-brand" href="/"><BsTextLeft />
+                    <img src="images/brand_logo_black.svg" alt="Logo Brand" />
+                </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

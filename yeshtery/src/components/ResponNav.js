@@ -1,7 +1,7 @@
 import React from 'react'
 import { Badge } from 'react-bootstrap';
 import { useCart } from 'react-use-cart';
-import { BsMinecartLoaded, BsFillPersonFill, BsHeart } from 'react-icons/bs';
+import { BsMinecartLoaded, BsFillPersonFill, BsHeart, BsTextLeft } from 'react-icons/bs';
 import CartGet from './CartGet';
 
 
@@ -16,7 +16,9 @@ const ResponNav = () => {
             <nav className="ResponNav navbar navbar-expand-lg bg-light">
                 <div className="container">
                     <div>
-                        <h1><a className="navbar-brand" href="/">Yeshtery</a></h1>
+                        <a className="navbar-brand" href="/"><BsTextLeft />
+                            <img src="images/brand_logo_black.svg" alt="Logo Brand" />
+                        </a>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
