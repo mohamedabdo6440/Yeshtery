@@ -73,7 +73,7 @@ const Footer = () => {
                         <div className="col-md-4">
                             <p> &copf; 2021 yeshtery. all rights reserved. <br /><span>Front End Developer /
                                 <span style={{ color: "#ffc107" }}>
-                                    <BsLinkedin /> <a class="navbar-brand" href="https://www.linkedin.com/in/mohamed-abdo-13a527211/" target={"_blank"}>Mohamed Abdo</a>
+                                    <BsLinkedin /> <a className="navbar-brand" href="https://www.linkedin.com/in/mohamed-abdo-13a527211/" target={"_blank"}>Mohamed Abdo</a>
                                 </span>
                             </span></p>
                         </div>
